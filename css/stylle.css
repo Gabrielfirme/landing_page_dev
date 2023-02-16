@@ -9,18 +9,46 @@
 body {
     background:#212529;
 }
+.main_header{
+    position: fixed;
+    width:100% ;
+    display: flex;
+    justify-content: center;
+    
+}
+.title_principal{
+    font: normal 700 30px "robot";
+    color: var(--color1);
+    text-align: center;
+
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    width:100% ;
+}
+.menu a {
+    font: normal 500 12px "roboto";
+    color: var( --color1);
+    margin: 1vh 0.2vh;
+}
+.main_content_landing{
+    margin:0 auto ; 
+}
 #home_show{
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .main_content_info{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
     align-items: center;
  
 }
@@ -29,11 +57,16 @@ body {
     height: 20%;
     display: flex;
     justify-content: start;
-    align-content: flex-start;
+    align-content: center;
+    background: none;
 }
 .button_contact_function{
     width: 40vh;
+    padding: 1.5vh 5vh;
     border-radius: 5vh;
+    background: none;
+    margin-top: 1vh;
+    margin-right: 0.3vh;
 
 }
 .btn_codes_demo{
@@ -52,9 +85,14 @@ body {
     margin-right: 0.2vh;
     padding: 1vh;
     border-radius: 0.9vh;
-
+    background: url(../img/btn_cat.png) no-repeat left;
+    background-size: contain;
+}
+.text_btn{
+    padding-left: 0.5vh;
 }
 .contact_me{
+    margin-top: 3vh;
     width: 20%;
     height: 20%;
 }
@@ -62,11 +100,12 @@ body {
     font: normal 500 20px "roboto";
     color: var(--color1);
     text-align: center;
-    padding: 10%;
+    text-decoration: none;
+   margin-top: 6vh;
 
 }
 ._title_content_second{
-      font: normal 500 10px "roboto";
+      font: normal 500 16px "roboto";
         color: var(--color1);
         text-align: center;
         padding: 5%;
@@ -78,43 +117,44 @@ p{
   width: 60%;
 }
 .picture_show{
-    width: 20%;
-    padding-top: 20%;
-    margin-left: 2%;
-   
-    background: none;
-
+    width:100%;
 
 }
 .tecs{
     display: flex;
     justify-content: center;
     margin-top: 10%;
-    background: yellowgreen;
+    
 }
 .projects{
     width: 100%;
 }
 .title_projects{
-    font: normal 600 15px "roboto";
+    font: normal 600 22px "roboto";
     color: var(--color1);
     margin-top: 7%;
     margin-bottom: 5%;
     text-align: center;
+    text-decoration: none;
 }
 .project_web_nutri{
+    width: auto;
   
     display: flex;
     justify-content: space-between;
-    padding: 2.5%;
+    padding: 2.5% auto;
     margin-bottom: 20%;
 }
 ._title_content_second_pjt{
-    font: normal 400 15px "roboto";
+    font: normal 00 15px "roboto";
     color: var(--color1);
+    text-align: center;
 }
 .pictrue_website_show{
   width: 40%;
+  border-radius: 2vh;
+
+
 }
 .info{
     display: flex;
