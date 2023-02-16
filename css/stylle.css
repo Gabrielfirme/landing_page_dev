@@ -1,12 +1,177 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+
+:root{
+    --color1: #fff;
+}
 
 body {
-    background-color: rgb(29, 25, 25);
+    background:#212529;
 }
-h1{
-    color: aliceblue;
-}
-#development_main_content{
+#home_show{
+    width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+.main_content_info{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+#button_contact{
+    width: 40%;
+    height: 20%;
+    display: flex;
+    justify-content: start;
+    align-content: flex-start;
+}
+.button_contact_function{
+    width: 40vh;
+    border-radius: 5vh;
+
+}
+.btn_codes_demo{
+    width: 12vh;
+    height: 5vh;
+    color: var(--color1);
+    margin-right: 0.2vh;
+    padding: 1vh;
+    background: rgb(32, 31, 31);
+    border-radius: 0.9vh;
+}
+.btn_codes_code{
+    width: 12vh;
+    height: 5vh;
+    color: var(--color1);
+    margin-right: 0.2vh;
+    padding: 1vh;
+    border-radius: 0.9vh;
+
+}
+.contact_me{
+    width: 20%;
+    height: 20%;
+}
+._title_main_content_presentation{
+    font: normal 500 20px "roboto";
+    color: var(--color1);
+    text-align: center;
+    padding: 10%;
+
+}
+._title_content_second{
+      font: normal 500 10px "roboto";
+        color: var(--color1);
+        text-align: center;
+        padding: 5%;
+}
+p{
+ font: normal 200 15px "Roboto";
+  color: var(--color1);
+  text-align: justify;
+  width: 60%;
+}
+.picture_show{
+    width: 20%;
+    padding-top: 20%;
+    margin-left: 2%;
+   
+    background: none;
+
+
+}
+.tecs{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    background: yellowgreen;
+}
+.projects{
+    width: 100%;
+}
+.title_projects{
+    font: normal 600 15px "roboto";
+    color: var(--color1);
+    margin-top: 7%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.project_web_nutri{
+  
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5%;
+    margin-bottom: 20%;
+}
+._title_content_second_pjt{
+    font: normal 400 15px "roboto";
+    color: var(--color1);
+}
+.pictrue_website_show{
+  width: 40%;
+}
+.info{
+    display: flex;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.title_footer{
+    font: normal 500 25px "roboto,sans-serif";
+    color: #fff;
+    text-align: center;
+}
+footer{
+    background: #49493e;
+    padding: 2vh;
+
+}
+.main__footer{
+    width: 100%;
+    margin: 0 auto;
+    background: #49493e;
+    
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 0.3vh solid gray;
+    padding: 3vh;
+}
+.label__foot{
+    font: normal 300 15px "roboto,sans-serif";
+    color: #fff;
+    padding: 1vh;
+
+}
+.input_footer{
+    width: 20vh;
+    margin: 0 auto;
+    padding: 1vh;
+    border-radius: 1vh;
+}
+#mensagem{
+    padding: 4vh 1vh;
+    text-align: start;
+}
+.btn_contact_me{
+    width: 20vh;
+    margin: 0 auto;
+    margin-top: 2vh;
+    padding: 1vh;
+    border-radius: 1vh;
 }
