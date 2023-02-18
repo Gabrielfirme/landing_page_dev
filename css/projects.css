@@ -1,0 +1,131 @@
+@charset "UTF-8";
+.projects{
+    width: 100%;
+}
+.title_projects{
+    font: normal 600 22px "roboto";
+    color: var(--color1);
+    margin-top: 7%;
+    margin-bottom: 5%;
+    text-align: center;
+    text-decoration: none;
+}
+.project_web_nutri{
+    width: auto;
+  
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5% auto;
+    margin-bottom: 20%;
+}
+._title_content_second_pjt{
+    font: normal 00 15px "roboto";
+    color: var(--color1);
+    text-align: center;
+}
+.pictrue_website_show{
+  width: 40%;
+  border-radius: 2vh;
+
+
+}
+.info{
+    display: flex;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.title_footer{
+    font: normal 500 25px "roboto,sans-serif";
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (min-width:780px) {
+
+
+    .projects{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .title_projects{
+        font: normal 600 22px "roboto";
+        color: var(--color1);
+        margin-top: 7%;
+        margin-bottom: 5%;
+        text-align: center;
+        text-decoration: none;
+        text-shadow: 2px 2px solid var(--color2);
+    }
+    .project_web_nutri{
+        width: auto;
+      
+        display: flex;
+        justify-content: space-around;
+        padding: 2.5% auto;
+        margin-bottom: 10%;
+    }
+    ._title_content_second_pjt{
+        font: normal 500 15px "roboto";
+        color: var(--color1);
+        text-align: center;
+    }
+    .pictrue_website_show{
+      width: 50%;
+      border-radius: 2vh;
+    
+    
+    }
+    .info{
+        display: flex;
+    }
+    
+    .buttons{
+        width: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+       
+        
+    }
+    li{
+        margin-left: 5%;
+        cursor: pointer;
+    
+    }
+ 
+    .btn_codes_demo{
+        font: normal 500 18px var(--font2);
+       padding: 2vh;
+       border-radius: 2vh;
+       cursor: pointer;
+     
+    }
+
+    .btn_codes_code{
+        font: normal 500 18px var(--font2);
+        padding: 2vh 2vh 2vh 6vh;
+        border-radius: 2vh;
+        background: url(../img/btn_cat.png) no-repeat left center;
+        cursor: pointer;
+;
+
+    }
+    
+    .title_footer{
+        font: normal 500 25px "roboto,sans-serif";
+        color: #fff;
+        text-align: center;
+    }
+
+
+
+
+
+}
