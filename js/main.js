@@ -1,5 +1,5 @@
 const form = document.querySelector("#form");
-const nameInput = document.querySelector ("#name");
+const nameInput = document.querySelector("#name");
 const emailInput = document.querySelector("#email");
 const messageTextarea = document.querySelector("#message");
 
