@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/stylle.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title> Portfólio Gabriel Firme  </title>
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="css/stylle.css">
+    <script src="js/main.js" defer></script>
+    
 </head>
 <body>
     <!--header page com menu nav-->
     <header id="main_header">
-        <h1 class="title_principal">Portfólio</h1>
+        <h1 class="title_principal"> Portfólio </h1>
         <nav class="nav-menu">
             
             <ul class="menu">
@@ -49,9 +49,6 @@
                     <button id="button_contact"><a href="https://www.linkedin.com/in/gabriel-firme-b57355225/" target="_blank"> Contato </a></button>
                         <img src="img/pngwing.com.png" alt="">
                         <img src="img/pngwing.com (1).png" alt="">
-                        
-              
-                   
                  
                 </div>
             </div>  
@@ -73,13 +70,13 @@
                      
             <img src="img/banner.jpg" class="pictrue_website_show" alt="">
                         
-                        <div class="card_buttons">
+                        <div class="card_buttons_nutri">
                             <h2 class="_title_content_second_pjt" > WebSite Nutricionista </h2>
                             <ul class="buttons">
                                 
-                                <li><button class="btn_codes_demo"> Deploy<a href=" https://gabrielfirme.github.io/site_nutricionista_debora/"></a></button></li>
+                               <li><button class="btn_codes_demo"><a href="https://gabrielfirme.github.io/Card-System-Credit/" class="btn_codes">Deploy</a></button></li>
                                     
-                                <li><button class="btn_codes_code"> Code <a href="https://github.com/Gabrielfirme/site_nutricionista_debora" ></a></button></li>
+                                <li><button class="btn_codes_code"> <a href="https://github.com/Gabrielfirme/site_nutricionista_debora" >  Code </a></button></li>
                             </ul>
                                                 
                         </div>
@@ -93,15 +90,14 @@
                      
                         
                         
-                        <div class="card_buttons">
+                        <div class="card_buttons_card">
                             <h2 class="_title_content_second_pjt" > Card System Card </h2>
+                            <!-- Botões para acesso direto apenas com o evento do click ao  Deploy e Code dos projetos hospedados no GitHub.-->
                             <ul class="buttons">
                                 
-                                <li>
-                                    <button class="btn_codes_demo"> Deploy <a href="https://gabrielfirme.github.io/Card-System-Credit/" class="btn_codes"></a></button></li>
+                                <li><button class="btn_codes_demo"><a href="https://gabrielfirme.github.io/Card-System-Credit/" class="btn_codes">Deploy</a></button></li>
                                     
-                                    <li><button class="btn_codes_code"> Code <a href= "https://github.com/Gabrielfirme/Card-System-Credit" class="btn_codes"></a></button>
-                                </li>
+                                <li><button class="btn_codes_code"><a href= "https://github.com/Gabrielfirme/Card-System-Credit" class="btn_codes"> Code </a></button></li>
                             </ul>
                                                 
                         </div>
@@ -118,20 +114,20 @@
     <h3 class="title_footer">Contato</h3>
     <section id="main_footer">
      
-        <form >
+        <form id="form" >
             <label for="Name" class="label__foot"> Nome </label>
-            <input type="text" name="name" id="name " class="input_footer">
-
+            <input type="text" id="name " class="input_footer" placeholder="Ex: Pedro Texeira">
+    
             <label for="mail" class="label__foot"> Email </label>
-            <input type="email" class="input_footer" placeholder="Deixe aqui seu email para nos comunicarmos">
+            <input type="email" id="email" class="input_footer" placeholder="Digite aqui seu email" >
+            
+            <label for="message" class="label__foot"> Mensagem: </label>
+            <textarea  cols="30" rows="5" id="message" class="input_footer" ></textarea>
 
-            <label for="mensagem" class="label__foot"> Mensagem </label>
-            <input type="text" name="mensagem" id="mensagem" class="input_footer">
-
-            <button type="submit" class="btn_contact_me"> Contacte me </button>
+            <button type="submit" class="btn_contact_me"> Contate me </button>
         </form>
     </section>
 </footer>
-<script src="main.js"></script>
+
 </body>
 </html>

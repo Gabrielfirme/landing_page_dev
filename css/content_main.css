@@ -1,6 +1,8 @@
 @charset "UTF-8";
 body {
-    background:#151515a2;
+    background: rgba(4, 62, 80, 0.958);
+  
+  
 }
 
 #main_content_landing{
@@ -17,7 +19,7 @@ body {
 
 .content_app_personal{
     width: 100%;
-    margin: 1vh auto;
+    margin: 1vh auto -23vh;
  
 
   
@@ -60,6 +62,8 @@ body {
 #button_contact{
     background:none;
     width: 18vh;
+    border-radius:2vh;
+    border: .5vh solid var(--color1 );
 
 }
 #button_contact a{
@@ -92,10 +96,8 @@ body {
         margin:0 auto ; 
     }
     #home_show{
-        
         display: flex;
         margin-top:1vh;
-        
        
     }
     
@@ -103,13 +105,8 @@ body {
     .content_app_personal{
         width: 94%;
         margin: 1vh auto;
-        height: 80vh;
-     
-    
-      
-        padding: auto 2vh;
-        border-bottom: 2px solid black;
-        
+        height: 72vh;
+
     
     }
     .card__descricao{
@@ -135,8 +132,7 @@ body {
         padding:  auto 2vh;
     }
     .card_botoes{
-        position: relative;
-        bottom: 50%;
+       
         width:30%;
         box-sizing: border-box;
         display: flex;
@@ -147,8 +143,11 @@ body {
     
     #button_contact{
         background:none;
-        width: 18vh;
-        border: 2px solid var(--color2);
+        width: 25vh;
+        height: 8vh;
+        padding: 2vh;
+        border: 2px solid var(--color1);
+        border-radius: 2vh;
     
     }
    
@@ -174,10 +173,11 @@ body {
         
     }
     .tecs{
-        width: 30%;
+        width: 100%;
         margin:0 auto;
         display: flex;
         justify-content: center;
+       
 
 
      
@@ -193,7 +193,9 @@ body {
 }
 @media screen and (min-width:1024px) {
     body {
-        background:#212529;
+      
+        background: rgba(4, 62, 80, 0.958);
+        width: 100%;
     }
     
     #main_content_landing{
@@ -203,19 +205,17 @@ body {
         width: 100%;
         display: flex;
         margin-top:1vh;
+        border: none;
         
        
     }
     
     
     .content_app_personal{
-        width: 100%;
+        width: 94%;
         margin: 1vh auto;
-     
-        background-color: blue;
-      
-        padding: auto 2vh;
-    
+        height: 72vh;
+
     }
     .card__descricao{
         display: flex;
@@ -272,12 +272,15 @@ body {
         
     }
     .tecs{
+        width: 80%;
         display: flex;
         justify-content: center;
         margin-top: 10%;
         
     }
-
+    .card_botoes{
+        width: 80%;
+    }
     .apresentation__imagem{
         width: 55vh;
 

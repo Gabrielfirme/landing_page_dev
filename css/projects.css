@@ -1,6 +1,9 @@
 @charset "UTF-8";
 .projects{
     width: 100%;
+    margin: 0 auto;
+    padding-left: 2vh;
+    padding-right: 2vh;
 }
 .title_projects{
     font: normal 600 22px "roboto";
@@ -11,21 +14,22 @@
     text-decoration: none;
 }
 .project_web_nutri{
-    width: auto;
+    width: 94%;
+    margin: 0 auto;
   
     display: flex;
-    justify-content: space-between;
-    padding: 2.5% auto;
-    margin-bottom: 20%;
+    
+    padding: 2.5% 4%;
+    margin-bottom: 10%;
 }
 ._title_content_second_pjt{
-    font: normal 00 15px "roboto";
+    font: normal 500 15px "roboto";
     color: var(--color1);
     text-align: center;
 }
 .pictrue_website_show{
-  width: 40%;
-  border-radius: 2vh;
+  width: 50%;
+  border-radius: 1vh;
 
 
 }
@@ -33,12 +37,58 @@
     display: flex;
 }
 
-.buttons{
+.card_buttons{
+    width: 90%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10%;
+
 }
+.buttons{
+    width: 20vh;
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    margin-top: 5%;
+   
+    
+}
+li{
+    margin-left: 5%;
+    cursor: pointer;
+
+}
+
+.btn_code{
+    color: var(--color1);
+}
+.btn_codes_demo{
+    font: normal 400 15px var(--font3);
+   padding: 1vh;
+   border-radius: 2vh;
+   cursor: pointer;
+ 
+}
+
+.btn_codes_code{
+    font: normal 400 15px var(--font3);
+    padding: 1vh;
+    border-radius: 2vh;
+    background: url(../img/btn_cat.png) no-repeat left center;
+    cursor: pointer;
+;
+
+}
+.btn_codes_demo a{
+    text-decoration: none;
+    color: var(--color2);
+   
+
+}
+.btn_codes_code a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 2vh;
+}
+
 
 .title_footer{
     font: normal 500 25px "roboto,sans-serif";
@@ -46,8 +96,9 @@
     text-align: center;
 }
 
-@media screen and (min-width:780px) {
 
+@media screen and (min-width:780px) {
+ 
 
     .projects{
         width: 80%;
@@ -63,26 +114,37 @@
         text-shadow: 2px 2px solid var(--color2);
     }
     .project_web_nutri{
-        width: auto;
-      
+        width:100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 2.5% auto;
         margin-bottom: 10%;
     }
     ._title_content_second_pjt{
         font: normal 500 15px "roboto";
         color: var(--color1);
-        text-align: center;
+        
     }
     .pictrue_website_show{
-      width: 50%;
+      width: 60%;
       border-radius: 2vh;
     
     
     }
     .info{
         display: flex;
+    }
+    .card_buttons_nutri{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+    }
+    .card_buttons_card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
     }
     
     .buttons{
@@ -99,23 +161,37 @@
         cursor: pointer;
     
     }
- 
+
+    .btn_code{
+        color: var(--color1);
+    }
     .btn_codes_demo{
-        font: normal 500 18px var(--font2);
-       padding: 2vh;
+        font: normal 400 15px var(--font3);
+       padding: 1vh;
        border-radius: 2vh;
        cursor: pointer;
      
     }
 
     .btn_codes_code{
-        font: normal 500 18px var(--font2);
-        padding: 2vh 2vh 2vh 6vh;
+        font: normal 400 15px var(--font3);
+        padding: 1vh 2vh;
         border-radius: 2vh;
         background: url(../img/btn_cat.png) no-repeat left center;
         cursor: pointer;
 ;
 
+    }
+    .btn_codes_demo a{
+        text-decoration: none;
+        color: var(--color2);
+       
+
+    }
+    .btn_codes_code a{
+        text-decoration: none;
+        color: #fff;
+        padding-left: 5vh;
     }
     
     .title_footer{
@@ -123,6 +199,22 @@
         color: #fff;
         text-align: center;
     }
+
+
+
+
+
+}
+
+@media screen and (min-width:1024px) {
+
+
+    .projects{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
 
 
 
