@@ -8,7 +8,7 @@ form.addEventListener("submit", (event) => {
 
     // Verifica se o nome esta vazio
     if(nameInput.value ===""){
-        alert("Por favor preencha com seu seu nome");
+        alert("Por favor preencha com seu nome");
         return;
     }
     //Verifica se o email preenchido é valido
@@ -45,4 +45,3 @@ function isEmailValid(email) {
     return false;
 }
 
-console.log(form);
